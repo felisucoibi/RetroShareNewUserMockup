@@ -1,5 +1,8 @@
 <?php
 $step = $_REQUEST['step'];
+$username = $_REQUEST['username'];
+$password = $_REQUEST['password'];
+
 
 
 if($step == "")
@@ -149,7 +152,7 @@ prngCheckBuffer();
 <BR>
 <BR>
 <BR>
-<CENTER>STEP 1/4 GENERATING RANDOM DATA<BR>PLEASE MOVE YOUR MOUSE UNTIL THE BAR TURNS GREEN</CENTER><br>
+<CENTER>STEP 1/3 GENERATING RANDOM DATA : MOVE YOUR MOUSE</CENTER><br>
 <div style="align:center; border: 1px solid black; background-color: gray; width: 600px; height: 10px;">
 <span id="bufferBar" style="background-color: red; width: 0px; height: 10px; position: absolute"></span></div>
 <form action="" method="get">
@@ -191,7 +194,7 @@ else if($step == "step2")
 <BR>
 <BR>
 <BR>
-<CENTER>STEP 2/4 USER AND PASSWORD</CENTER><br>
+<CENTER>STEP 2/3 USER AND PASSWORD</CENTER><br>
 <script>
 
 function Login(form) { username = new Array("username goes here"); password = new Array("password goes here"); page = "Name of html file to open when you push log in goes here" + ".html"; if (form.username.value == username[0] && form.password.value == password[0] || form.username.value == username[1] && form.password.value == password[1] ||
@@ -228,13 +231,40 @@ Next step only user and password, the user is going to be used as a default iden
 
 <?php
 }
-
 // STEP3 USER AND PASSWORD INPUT
-else if($step == "step2")
+else if($step == "step3")
 {
+?>
 
-	echo "step2";
+<html><head></head>
+<body>
 
+<TABLE width="30%" align="center" border="1">
+<TR>
+<TD>
+<BR>
+<BR>
+<BR>
+<BR>
+<CENTER>STEP 3/3 ADD A FRIEND</CENTER><br>
+
+<?php
+echo "user: $username<br>";
+echo "password: $password";
+
+
+?>
+
+<BR><BR><BR>
+</TD>
+</TR>
+</TABLE>
+<p>
+<BR>
+In this step you can add a friend or add chatasaurus.
+</p>
+
+<?php
 }
 
 ?>
