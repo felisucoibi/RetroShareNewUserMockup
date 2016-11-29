@@ -271,9 +271,8 @@ BgVjYXNhMgUQXlSc9aHLkXnUSrTbD3mGoUAcDn/jr
 
 </PRE>
 
-IF YOU DONT HAVE FRIENDS USING RS CLICK HERE TO USE THE PUBLI RS
-CHAT SERVERS:<br>
-http://107.150.3.74/w2c/gxs/<br>
+IF YOU DONT HAVE FRIENDS USING RS YOU CAN ADD THE DEFAULT CHAT SERVER, COPY YOUR KEY AND GO TO THIS WEBSITE TO OBTAIN THE FIRST FRIEND KEY T CONTINUE:<br>
+<A href="http://107.150.3.74/w2c/gxs/" target="_blank">OBTAIN CHAT SERVER KEY</A><br>
 
 <?php
 //echo "user: $username<br>";
@@ -291,7 +290,14 @@ http://107.150.3.74/w2c/gxs/<br>
 </TABLE>
 <p>
 <BR>
-In this step you can add a friend or add chatasaurus.
+Last step only possible to continue if you add a friend or chatasaurus key, maybe can be an automatic process to add chatasaurus sending the key and receiving, maybe user only has to enter the catchpa if not a link to the website, when a VALIDATE KEY IS THERE THE FINISH BUTTON APPEARS....<br>
+The data web have right now:<br>
+<?php
+echo "user: $username<br>";
+echo "password: $password<br>";
+echo "default user for chats forums user: $username<br>";
+echo "default location: $username-default<br>";
+?>
 </p>
 
 <?php
