@@ -247,14 +247,44 @@ else if($step == "step3")
 <BR>
 <BR>
 <CENTER>STEP 3/3 ADD A FRIEND</CENTER><br>
+PASTE HERE THE KEY TEXT OF YOUR FRIEND:<BR>
+<TEXTAREA rows="8" cols="60">
+
+</TEXTAREA>
+<BR><BR><BR>
+COPY THIS TEXT AND GIVE IT TO YOUR FRIEND:
+<PRE>
+CASDFQEGAcGYxsBNBFTK2BsBCADEbHvOTvtgm4rhdRAedmyzLFOXCVWEWJtz9LTw
+36l4oi6CS0J+TYMET0gDmYMMJD5CDDry7FRQsf3MEpooUfwvNFRTcHM0/UXJoAq9
+j8XZahy3D72AWE1lWU4METzeLxz9gZohlDtN3M9j6OGkQn5k37qIrekiqVmvuZ3M
+31l3g7nOw0Wp/GVWHaGK0l7+40UTOQS5qjDWTjesE2LqMfCXokO23BUCL0EL2Azl
+GyXSZ/sHxlmhVXXA9BKa8WKIUo4ASn/vzdZaGrHcUBSvKMynaJPz/+aoeWGTpme5
+azaRO5bxSbGtbHo91+RJKohKHlxpcOAhjnvlk18YJaArABEBAAHNJGdoaWJsaTMg
+KEdlbmVyYXRlZCBieSBSZXRyb1NoYXJlKSA8PsLAXwQTAQIAEwUCVMrYGwkQcuji
++BuVOl8CGQEAAAm7B/9ieVA3IOPOiOh7cGtwk5bGAvmiv1W7mJva1RuIQV6ErrST
+f0BxH5ClYNfRv8KbRF/rdoAOS7cWCOuAUyvmzxBpbmsjvpshcUjxpIpaSTbEYq5I
+IP2tsvCpCMJhrG61PuIBGBxP+yIH6uEFJUk38CKDn5PL4HYOVwqYSd0Jma82zc3Q
+YjrMGaXqITWPifVpnXHcmcWocfO7OuPiwPpLt7R11Nk3au00Sd0VNZPTDiY7ZpGZ
+hRnLGsXXnlX3YA+Ls9+C4dCYoyYjbQHz7QFxz+jlps4WORSfUSlLBMStCpYdBb1i
+RmQOmCNQIGj4gcVp3cVvhzCn0O4l+6FzH8T7/O0GAgZUeNJfCh4DBsCoADgKHgQA
+BgVjYXNhMgUQXlSc9aHLkXnUSrTbD3mGoUAcDn/jr
+
+</PRE>
+
+IF YOU DONT HAVE FRIENDS USING RS CLICK HERE TO USE THE PUBLI RS
+CHAT SERVERS:<br>
+http://107.150.3.74/w2c/gxs/<br>
 
 <?php
-echo "user: $username<br>";
-echo "password: $password";
+//echo "user: $username<br>";
+//echo "password: $password";
 
 
 ?>
-
+<form action="" method="get">
+  <input type="hidden" name="step" value="step4">
+  <button type="submit" formmethod="post" formaction="">FINISH</button>
+</form>
 <BR><BR><BR>
 </TD>
 </TR>
@@ -268,6 +298,8 @@ In this step you can add a friend or add chatasaurus.
 }
 
 ?>
+
+
 
 
 
